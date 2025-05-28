@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+     background-image:url(vote.jpg);
+     background-repeat:  repeat-y;
+     background-position: 50%;
+     background-color: whitesmoke;
+     backdrop-filter: blur(1px)
+}
+h1{
+    color:black
+}
+
+input{
+    background-shadow: 10px 10px 10px orange;
+    font-size:20px;
+    color:black
+
+}
+p{
+    font-size: 30px;
+    color: rgb(1, 14, 14);
+    font-weight: 200;
+}
+label{
+    font-size:20px;
+    color:rgb(4, 0, 0);
+    
+}
+button {
+    background-color: #4c56af; /* Green */
+    border: none;
+    font-size: 20px;
+}
+
+

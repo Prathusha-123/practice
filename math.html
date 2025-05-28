@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love predictor</title>
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+<div id="body">
+    <label for="urname">Your name::</label>
+    <input type="text" id="urname" place holder="Enter your name" >
+    <label for="crname">Crush name💕💕💕::</label>
+    <input type="text" id="crname" place holder="Enter your crush name" >
+    <button onclick="per()">Submit</button>
+    <p id="res"></p>
+</div>
+
+    <script>
+        function per() {
+            var urname = document.getElementById("urname").value;
+            var crname = document.getElementById("crname").value;
+            var per= Math.random()*100; // Random percentage between 1 and 100
+            res.innerHTML = "The love between "  +  urname  +  " and"  + crname +  "is"  + per;
+        }
+    </script>
+
+    
+</body>
+</html>

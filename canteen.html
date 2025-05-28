@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIT Canteen</title>
+    <link rel="stylesheet" href="can.css">
+
+</head>
+<body>
+    <h1>AIT Canteen</h1>
+    <label for="">idli-Rs.20</label>
+   <input type="number" name="" id="idli" placeholder="Enter quantity">
+    <label for="">dosa-Rs.30</label>
+    <input type="number" name="" id="dosa" placeholder="Enter quantity">
+    <label for="">vada-Rs.10</label>
+    <input type="number" name="" id="vada"  placeholder="Enter quantity">
+    <label for="">tea-Rs.10</label>
+    <input type="number" name="" id="tea"   placeholder="Enter quantity">
+    <label for="">poori-Rs.30</label>
+    <input type="number" name="" id="poori" placeholder="Enter quantity">
+    <label for="">biryani-Rs.50</label>
+    <input type="number" name="" id="biryani"placeholder="Enter quantity">
+    <label for="">cool drink-Rs.20</label>
+    <input type="number" name="" id="cooldrink" placeholder="Enter quantity">
+    <label for="">ice cream-Rs.30</label>
+    <input type="number" name="" id="iceecream" placeholder="Enter quantity">
+    <label for="">special item-Rs.50</label>
+    <input type="number" name="" id="specialitem" placeholder="Enter quantity">
+    <p>Thanks for visiting</p>
+
+   <button onclick="bill()">Submit</button>  
+   <script>
+       function bill() {
+           var idli = document.getElementById("idli").value;
+           var dosa = document.getElementById("dosa").value;
+           var vada = document.getElementById("vada").value;
+           var tea = document.getElementById("tea").value;
+           var poori = document.getElementById("poori").value;
+           var biryani = document.getElementById("biryani").value;
+           var cooldrink = document.getElementById("cooldrink").value;
+           var icecream = document.getElementById("iceecream").value;
+           var specialitem = document.getElementById("specialitem").value;
+
+           var total = (idli * 20) + (dosa * 30) + (vada * 10) + (tea * 10) + (poori * 30) + (biryani * 50) + (cooldrink * 20) + (icecream * 30) + (specialitem * 50);
+           
+           alert("Your total bill is Rs." + total);
+           total.innerHTML = "Your total bill is Rs." + total;
+
+       }
+   </script>
+
+</body>
+</html>

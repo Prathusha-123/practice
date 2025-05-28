@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(love.jpg);
+    background-position: 50%;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-size: 20px;
+    color: black;
+
+}
+
+input[type="text"] {
+    width: 260px;
+    padding: 10px;
+    margin: 10px 0 18px 0;
+    border: 1.5px solid aqua;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+    background-image: url(love.jpg);
+}
+
+input[type="text"]:focus {
+    border: 2px solid aqua;
+}
+
+button {
+    background: linear-gradient(90deg, #d72660 0%, blue 100%);
+    color: #fff;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 16px rgba(247, 96, 54, 0.1);
+    transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #f46036 0%, #d72660 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+#res {
+    margin-top: 28px;
+    font-size: 20px;
+    color: #2e294e;
+    background-image: url(love.jpg);
+    padding: 18px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(46, 41, 78, 0.08);
+    min-width: 200px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#body{
+    justify-items: center;
+    height: 500;
+    width: 300px;
+    background-image:url(love.jpg);
+    padding: 10px;
+   border-radius: 20px;
+
+}
